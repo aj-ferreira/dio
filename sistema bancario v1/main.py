@@ -21,7 +21,7 @@ def saque():
 
 def deposito():
     '''Operação de depósito. Valor deve ser positivo, menor ou igual
-    ao saldo. Permitido no maximo 3 depositos..'''
+    ao saldo.'''
     global saldo
     valor = float(input("Digite o valor do depósito: "))
     if valor >= 0:
